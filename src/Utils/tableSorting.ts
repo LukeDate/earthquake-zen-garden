@@ -29,9 +29,3 @@ export const useSortableData = (items: FeaturesEntity[], config = null) => {
 
   return { items: sortedItems, requestSort }
 }
-
-const color1 = '#ededed'
-const color2 = '#777777'
-const color3 = '#444444'
-const color4 = '#0011bb'
-const color5 = '#6600cc'
