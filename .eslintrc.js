@@ -4,7 +4,6 @@ module.exports = {
     es2021: true
   },
   extends: [
-    "plugin:sonarjs/recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "eslint:recommended"
@@ -27,7 +26,6 @@ module.exports = {
   },
   rules: {
     "react/prop-types": ["off"],
-    "sonarjs/cognitive-complexity": ["error", 5],
     "max-lines-per-function": ["error", 40],
     "@typescript-eslint/no-explicit-any": 2
   }
